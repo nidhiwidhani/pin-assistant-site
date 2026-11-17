@@ -1,0 +1,157 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pin Companion | A Visual Research Assistant</title>
+  <meta name="description" content="A proposed Pinterest assistant for Claude, designed to help explore visual inspiration and organise creative references.">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #f6f2eb;
+      color: #49382e;
+      font-family: Georgia, serif;
+    }
+
+    header {
+      padding: 28px 8%;
+      border-bottom: 1px solid #ded3c5;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 20px;
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      color: #49382e;
+      text-decoration: none;
+      margin-left: 24px;
+      font: 12px Arial, sans-serif;
+    }
+
+    .hero {
+      min-height: 75vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .eyebrow {
+      font: 11px Arial, sans-serif;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      font-size: clamp(48px, 8vw, 88px);
+      font-weight: normal;
+      line-height: 1.05;
+      max-width: 850px;
+    }
+
+    .hero p {
+      max-width: 500px;
+      line-height: 1.8;
+      margin: 28px 0;
+      color: #76675c;
+      font: 15px Arial, sans-serif;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 15px 30px;
+      background: #49382e;
+      color: #fff;
+      text-decoration: none;
+      font: 12px Arial, sans-serif;
+      letter-spacing: 1px;
+    }
+
+    .section {
+      padding: 85px 10%;
+      text-align: center;
+      background: #eee6da;
+    }
+
+    .section h2 {
+      font-size: 38px;
+      font-weight: normal;
+      margin-bottom: 20px;
+    }
+
+    .section p {
+      max-width: 620px;
+      margin: auto;
+      font: 15px/1.9 Arial, sans-serif;
+      color: #76675c;
+    }
+
+    footer {
+      padding: 35px 8%;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+      font: 12px Arial, sans-serif;
+    }
+
+    footer a {
+      color: #49382e;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">PIN COMPANION</div>
+    <nav>
+      <a href="#about">ABOUT</a>
+      <a href="privacy.html">PRIVACY</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow">A new way to explore inspiration</div>
+      <h1>Your visual world,<br>more connected.</h1>
+      <p>
+        Pin Companion is a proposed personal Pinterest
+        assistant for Claude, designed to make visual
+        discovery and creative research easier.
+      </p>
+      <a class="button" href="#about">DISCOVER THE PROJECT</a>
+    </section>
+
+    <section class="section" id="about">
+      <h2>Ideas into inspiration.</h2>
+      <p>
+        The project aims to explore how Pinterest's
+        platform and Claude can work together through
+        the Model Context Protocol (MCP).
+        Planned capabilities include visual research,
+        discovering inspiration and organising creative
+        references, subject to API permissions.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <span>PIN COMPANION © 2026</span>
+    <a href="privacy.html">Privacy Policy</a>
+  </footer>
+
+</body>
+</html>
+
